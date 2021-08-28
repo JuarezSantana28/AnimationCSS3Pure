@@ -1,0 +1,149 @@
+body {
+  background: black;
+}
+
+.circle1 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: red black black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 598px;
+  top: 248px;
+  animation: rotate 2s linear normal infinite;
+}
+
+.circle2 {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black red black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 613px;
+  top: 263px;
+  animation: rotate 2s linear reverse infinite;
+}
+
+.circle3 {
+  position: absolute;
+  width: 198px;
+  height: 198px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black black red black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 626px;
+  top: 275px;
+  animation: rotate 2s linear normal infinite;
+}
+
+.circle4 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black black black red;
+  border-radius: 50%;
+  border-style: solid;
+  left: 637px;
+  top: 283px;
+  animation: rotate 2s linear reverse infinite;
+}
+
+.circle5 {
+  position: absolute;
+  width: 148px;
+  height: 148px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: red black black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 649.5px;
+  top: 296px;
+  animation: rotate 2s linear normal infinite;
+}
+
+.circle6 {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black red black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 661.5px;
+  top: 309px;
+  animation: rotate 2s linear reverse infinite;
+}
+
+.circle7 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black black red black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 673.5px;
+  top: 322px;
+  animation: rotate 2s linear normal infinite;
+}
+
+.circle8 {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black black black red;
+  border-radius: 50%;
+  border-style: solid;
+  left: 686.5px;
+  top: 335px;
+  animation: rotate 2s linear reverse infinite;
+}
+
+.circle9 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: red black black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 699.5px;
+  top: 348px;
+  animation: rotate 2s linear normal infinite;
+}
+
+.circle10 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border: 15px;
+  margin: 0 auto;
+  border-color: black red black black;
+  border-radius: 50%;
+  border-style: solid;
+  left: 712.5px;
+  top: 361px;
+  animation: rotate 2s linear reverse infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
